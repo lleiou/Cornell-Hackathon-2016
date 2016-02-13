@@ -8,4 +8,3 @@ Data Set: [Hospital Inpatient Discharges (SPARCS De-Identified): 2012](https://h
 
 
 Feb 13 10:00am - Feb 14 10:00am, 2016.
-Yanran
