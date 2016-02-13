@@ -1,58 +1,58 @@
-"Facility Name" "freq"
-"1" "Bellevue Hospital Center" 23612
-"2" "Bronx-Lebanon Hospital Center - Concourse Division" 24388
-"3" "Bronx-Lebanon Hospital Center - Fulton Division" 4321
-"4" "Brookdale Hospital Medical Center" 16232
-"5" "Brooklyn Hospital Center - Downtown Campus" 17998
-"6" "Calvary Hospital Inc" 2939
-"7" "Coney Island Hospital" 10979
-"8" "Elmhurst Hospital Center" 24713
-"9" "Flushing Hospital Medical Center" 17100
-"10" "Forest Hills Hospital" 17175
-"11" "Harlem Hospital Center" 12023
-"12" "Henry J. Carter Specialty Hospital" 175
-"13" "Hospital for Special Surgery" 13908
-"14" "Interfaith Medical Center" 9150
-"15" "Jacobi Medical Center" 20923
-"16" "Jamaica Hospital Medical Center" 23610
-"17" "Kings County Hospital Center" 25498
-"18" "Kingsbrook Jewish Medical Center" 9277
-"19" "Lenox Hill Hospital" 32026
-"20" "Lincoln Medical & Mental Health Center" 23694
-"21" "Long Island Jewish Medical Center" 39298
-"22" "Long Island Jewish Schneiders Children's Hospital Division" 15712
-"23" "Lutheran Medical Center" 27809
-"24" "Maimonides Medical Center" 43765
-"25" "Memorial Hospital for Cancer and Allied Diseases" 22335
-"26" "Metropolitan Hospital Center" 14695
-"27" "Montefiore Med Center - Jack D Weiler Hosp of A Einstein College Div" 26406
-"28" "Montefiore Medical Center-Wakefield Hospital" 16262
-"29" "Montefiore Medical Center - Henry & Lucy Moses Div" 40098
-"30" "Mount Sinai Beth Israel" 43414
-"31" "Mount Sinai Beth Israel Brooklyn" 10665
-"32" "Mount Sinai Hospital" 57330
-"33" "Mount Sinai Hospital - Mount Sinai Hospital of Queens" 9244
-"34" "Mount Sinai Roosevelt" 28153
-"35" "Mount Sinai St. Lukes" 15175
-"36" "New York-Presbyterian/Lower Manhattan Hospital" 10316
-"37" "New York Community Hospital of Brooklyn, Inc" 7645
-"38" "New York Eye and Ear Infirmary of Mount Sinai" 457
-"39" "New York Hospital Medical Center of Queens" 32480
-"40" "New York Methodist Hospital" 39678
-"41" "New York Presbyterian Hospital - Allen Hospital" 12680
-"42" "New York Presbyterian Hospital - Columbia Presbyterian Center" 49321
-"43" "New York Presbyterian Hospital - New York Weill Cornell Center" 42154
-"44" "North Central Bronx Hospital" 7010
-"45" "NYU Hospital for Joint Diseases" 5287
-"46" "NYU Hospitals Center" 28952
-"47" "Queens Hospital Center" 13790
-"48" "Richmond University Medical Center" 16244
-"49" "RUMC-Bayley Seton" 1203
-"50" "SBH Health System" 18300
-"51" "St Johns Episcopal Hospital So Shore" 9957
-"52" "Staten Island University Hosp-North" 33366
-"53" "Staten Island University Hosp-South" 9760
-"54" "SUNY Downstate Medical Center at LICH" 6944
-"55" "University Hospital of Brooklyn" 15767
-"56" "Woodhull Medical & Mental Health Center" 14596
-"57" "Wyckoff Heights Medical Center" 16050
+"Facility Name","freq"
+"1","Bellevue Hospital Center" 23612
+"2","Bronx-Lebanon Hospital Center - Concourse Division" 24388
+"3","Bronx-Lebanon Hospital Center - Fulton Division" 4321
+"4","Brookdale Hospital Medical Center" 16232
+"5","Brooklyn Hospital Center - Downtown Campus" 17998
+"6","Calvary Hospital Inc" 2939
+"7","Coney Island Hospital" 10979
+"8","Elmhurst Hospital Center" 24713
+"9","Flushing Hospital Medical Center" 17100
+"10","Forest Hills Hospital" 17175
+"11","Harlem Hospital Center" 12023
+"12","Henry J. Carter Specialty Hospital" 175
+"13","Hospital for Special Surgery" 13908
+"14","Interfaith Medical Center" 9150
+"15","Jacobi Medical Center" 20923
+"16","Jamaica Hospital Medical Center" 23610
+"17","Kings County Hospital Center" 25498
+"18","Kingsbrook Jewish Medical Center" 9277
+"19","Lenox Hill Hospital" 32026
+"20","Lincoln Medical & Mental Health Center" 23694
+"21","Long Island Jewish Medical Center" 39298
+"22","Long Island Jewish Schneiders Children's Hospital Division" 15712
+"23","Lutheran Medical Center" 27809
+"24","Maimonides Medical Center" 43765
+"25","Memorial Hospital for Cancer and Allied Diseases" 22335
+"26","Metropolitan Hospital Center" 14695
+"27","Montefiore Med Center - Jack D Weiler Hosp of A Einstein College Div" 26406
+"28","Montefiore Medical Center-Wakefield Hospital" 16262
+"29","Montefiore Medical Center - Henry & Lucy Moses Div" 40098
+"30","Mount Sinai Beth Israel" 43414
+"31","Mount Sinai Beth Israel Brooklyn" 10665
+"32","Mount Sinai Hospital" 57330
+"33","Mount Sinai Hospital - Mount Sinai Hospital of Queens" 9244
+"34","Mount Sinai Roosevelt" 28153
+"35","Mount Sinai St. Lukes" 15175
+"36","New York-Presbyterian/Lower Manhattan Hospital" 10316
+"37","New York Community Hospital of Brooklyn, Inc" 7645
+"38","New York Eye and Ear Infirmary of Mount Sinai" 457
+"39","New York Hospital Medical Center of Queens" 32480
+"40","New York Methodist Hospital" 39678
+"41","New York Presbyterian Hospital - Allen Hospital" 12680
+"42","New York Presbyterian Hospital - Columbia Presbyterian Center" 49321
+"43","New York Presbyterian Hospital - New York Weill Cornell Center" 42154
+"44","North Central Bronx Hospital" 7010
+"45","NYU Hospital for Joint Diseases" 5287
+"46","NYU Hospitals Center" 28952
+"47","Queens Hospital Center" 13790
+"48","Richmond University Medical Center" 16244
+"49","RUMC-Bayley Seton" 1203
+"50","SBH Health System" 18300
+"51","St Johns Episcopal Hospital So Shore" 9957
+"52","Staten Island University Hosp-North" 33366
+"53","Staten Island University Hosp-South" 9760
+"54","SUNY Downstate Medical Center at LICH" 6944
+"55","University Hospital of Brooklyn" 15767
+"56","Woodhull Medical & Mental Health Center" 14596
+"57","Wyckoff Heights Medical Center" 16050
