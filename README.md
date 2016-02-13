@@ -1,4 +1,4 @@
-# CornellHackathon2016
+# Cornell Hackathon 2016
 The Repository for [Cornell Data Hackathon 2016](https://datascience2016.splashthat.com)
 
 
