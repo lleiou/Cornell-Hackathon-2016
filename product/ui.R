@@ -15,6 +15,7 @@ shinyUI(fluidPage(
     
     sidebarLayout(
       sidebarPanel(
+        textInput("Caption", HTML(" <h6>Where are you located?</h6>"), "5 Times Square, New York, NY"),
         radioButtons("Er", label = "Emergency",
                      choices = list("Yes" = 0, "No" = 1),selected = 0),
         

@@ -2,6 +2,7 @@ library("dplyr")
 library("data.table")
 library("stringr")
 library("muStat")
+library(data.table)
 library(shiny)
 library(data.table)
 library(googleVis)
@@ -9,14 +10,16 @@ library(ggplot2)
 library(ggmap)
 library(RCurl)
 
+suppressPackageStartupMessages(library(googleVis));
+
 load("hosp.RData")
 load("hosp2.RData")
 
-addDistance<- function(data,CostWeight,TimeWeight,DistanceWeight,SaWeight,address){
-  hos<- as.matrix(partialdata$`Facility Name`);
+addDistance<- function(data,address){
+  hos<- as.matrix(data$`Facility Name`);
   
   Distance<- as.data.frame(matrix(0,length(hos),1)); colnames(Distance)<- 'Distance';
-  partialdata<- cbind(partialdata,Distance);   partialdata<- as.data.frame(partialdata);
+  partialdata<- cbind(data,Distance);   partialdata<- as.data.frame(data);
   
   for(i in 1:length(hos))  
   {
@@ -31,6 +34,11 @@ add<-function(partialdata,CostWeight,TimeWeight,DistanceWeight,SaWeight,DiagWeig
 }
 
 shinyServer( function(input, output) {
+  CostWeight=1
+  TimeWeight=1
+  DistanceWeight=1
+  SaWeight=1
+  DiagWeight=1
   # output$data<-renderText({input$In})
   general<-reactive({
     dd<-hosp
@@ -65,16 +73,16 @@ shinyServer( function(input, output) {
     if (flag==0){
       partialdata<-rd
       partialdata<-partialdata[!duplicated(partialdata$`Facility Name`),]
-      partialdata<-mutate(partialdata,waitime=hosp2[`Facility Name`,3])
-      partialdata<-mutate(partialdata,satis=hosp2[`Facility Name`,2])
+      partialdata<-mutate(partialdata,waitime=hosp2[which(partialdata$`Facility Name`== hosp2$`Facility Name`),3])
+      partialdata<-mutate(partialdata,satis=hosp2[which(partialdata$`Facility Name`== hosp2$`Facility Name`),2])
       partialdata<-addDistance(partialdata,address)
       partialdata<-add(partialdata,CostWeight,TimeWeight,DistanceWeight,SaWeight,DiagWeight);
       
     } else {
    
       partialdata<-partialdata[!duplicated(partialdata$`Facility Name`),]
-      partialdata<-mutate(partialdata,waitime=hosp2[`Facility Name`,3])
-      partialdata<-mutate(partialdata,satis=hosp2[`Facility Name`,2])
+      partialdata<-mutate(partialdata,waitime=hosp2[which(partialdata$`Facility Name`== hosp2$`Facility Name`),3])
+      partialdata<-mutate(partialdata,satis=hosp2[which(partialdata$`Facility Name`== hosp2$`Facility Name`),2])
       partialdata<-addDistance(partialdata,address)
       partialdata<-mutate(partialdata,total=-Distance)
     }
@@ -85,7 +93,7 @@ shinyServer( function(input, output) {
     partialdata<-general();
     data<-as.data.frame(partialdata)
     data<-data[sort(data$total, decreasing=TRUE, index.return=TRUE)$ix,];
-    data<- cbind(1:nrow(data), data); data<-data[1:10]
+    data<- cbind(1:nrow(data), data); data<-data[1:10,]
     data
   })
 })
