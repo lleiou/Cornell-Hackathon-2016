@@ -56,7 +56,7 @@ shinyServer( function(input, output) {
           group_by(`Facility Name`) 
       rd<- Data %>%
         summarise(count = n())%>%
-        mutate(number_case=count)
+        mutate(num_case=count)
       pay<-Data %>%
         summarise(charge = mean(`Total Charges`))
       rd$fee<-pay$charge
@@ -64,14 +64,15 @@ shinyServer( function(input, output) {
     address<-as.character(input$Caption)
     if (flag==0){
       partialdata<-rd
-      partialdata<-partialdata[!duplicated(partialdata$`Facility Name`)]
+      partialdata<-partialdata[!duplicated(partialdata$`Facility Name`),]
       partialdata<-mutate(partialdata,waitime=hosp2[`Facility Name`,3])
       partialdata<-mutate(partialdata,satis=hosp2[`Facility Name`,2])
       partialdata<-addDistance(partialdata,address)
       partialdata<-add(partialdata,CostWeight,TimeWeight,DistanceWeight,SaWeight,DiagWeight);
       
     } else {
-      partialdata<-partialdata[!duplicated(partialdata$`Facility Name`)]
+   
+      partialdata<-partialdata[!duplicated(partialdata$`Facility Name`),]
       partialdata<-mutate(partialdata,waitime=hosp2[`Facility Name`,3])
       partialdata<-mutate(partialdata,satis=hosp2[`Facility Name`,2])
       partialdata<-addDistance(partialdata,address)
@@ -80,9 +81,10 @@ shinyServer( function(input, output) {
     partialdata
     })
   
-  output$List <- renderDataTable({
-    general();
-    data<- partialdata[sort(partialdata$total, decreasing=TRUE, index.return=TRUE)$ix,];
+  output$List<-renderDataTable({
+    partialdata<-general();
+    data<-as.data.frame(partialdata)
+    data<-data[sort(data$total, decreasing=TRUE, index.return=TRUE)$ix,];
     data<- cbind(1:nrow(data), data); data<-data[1:10]
     data
   })
