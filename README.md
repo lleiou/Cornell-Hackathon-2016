@@ -12,6 +12,17 @@ Feb 13 10:00am - Feb 14 10:00am, 2016.
 
 
 
+####About Trip-Aid;
+This web application, developed in spring 2016 at Cornell Tech, Google New York for the DataHackathon2016 competition, is mainly for NYC travelers who come to NYC for the first time. It’s also very helpful for native residents who are not familiar with New York’s medical system and need direct guidance to find the best hospital in NYC. Therefore it also has several language versions.
+
+In general, the application is an HCI product developed in R studio with Shiny. The highlight of this product is its ability to provide users the comprehensive ranking of all NYC hospitals given their health emergency and insurance status. 
+To be more specific, the features of our interest include how far away the hospital is from the user, total expense, waiting time for an ER, historical diseases cases and number of days in hospital. 
+To make user experience much better especially for those in emergence status, we set all settings suitable for them in default, which enables them to find the nearest as well the top ranking hospitals in much shorter time. 
+Users could see the result in a module with google map, which shows users’ location and suggested hospitals at the same time. 
+
+We are also looking forward to develop a similar iOS/Android app, which is more convenient to use.
+
+
 
 ####Related Links:
 1.  [Data.medicare.gov] (https://data.medicare.gov)
