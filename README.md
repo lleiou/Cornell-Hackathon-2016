@@ -12,7 +12,7 @@ Feb 13 10:00am - Feb 14 10:00am, 2016.
 
 
 
-####About Trip-Aid;
+####About Trip-Aid:
 This web application, developed in spring 2016 at Cornell Tech, Google New York for the DataHackathon2016 competition, is mainly for NYC travelers who come to NYC for the first time. It’s also very helpful for native residents who are not familiar with New York’s medical system and need direct guidance to find the best hospital in NYC. Therefore it also has several language versions.
 
 In general, the application is an HCI product developed in R studio with Shiny. The highlight of this product is its ability to provide users the comprehensive ranking of all NYC hospitals given their health emergency and insurance status. 
