@@ -67,4 +67,22 @@ rank <- merge(rank, recom, all = TRUE, by = intersect(names(rank), names(recom))
 rank <- merge(rank, wait, all = TRUE, by = intersect(names(rank), names(wait)))
 rank <- na.omit(rank)
 
+#radar chart
+maxmin <- data.frame(
+  case = c(max(rank$cases), min(rank$cases)),
+  charge = c(max(rank$charge), min(rank$charge)),
+  dist = c(5, 1),
+  recom = c(max(rank$recom), min(rank$recom)),
+  wait = c(max(rank$wait), min(rank$wait)))
+RNGkind("Mersenne-Twister")
+set.seed(123)
+dat <- data.frame(
+  case = rank$cases[c(1,2,3)],
+  charge = rank$charge[c(1,2,3)],
+  dist = runif(3,1,5),
+  recom = rank$recom[c(1,2,3)],
+  wait = rank$wait[c(1,2,3)])
+dat <- rbind(maxmin,dat)
 
+radarchart(dat, axistype=4, pcol=topo.colors(3), plty=1, pdensity=c(5, 10, 30), 
+           pangle=c(10, 45, 120), pfcol=topo.colors(3))
