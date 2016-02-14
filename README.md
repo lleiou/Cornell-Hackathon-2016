@@ -30,7 +30,6 @@ We are also looking forward to developing a similar iOS/Android app, which is mo
 ![screen shot 2016-02-14 at 10 00 25 am](https://cloud.githubusercontent.com/assets/3372200/13034396/1e5fdff4-d302-11e5-9cbb-d7f399402e7a.jpg)
 
 
-<center>The User Interface of Trip-Aid</center>
 
 <br /> 
 
