@@ -24,13 +24,13 @@ To be more specific, the features of our interest include how far away the hospi
 To make user experience much better especially for those in emergence status, we set all settings suitable for them in default, which enables them to find the nearest as well the top ranking hospitals in much shorter time. 
 Users could see the result in a module with google map, which shows users’ location and suggested hospitals at the same time. 
 
-We are also looking forward to develop a similar iOS/Android app, which is more convenient to use.
+We are also looking forward to developing a similar iOS/Android app, which is more convenient to use.
 
 
 ####About Team:
 Team name: Totto
 
-Team members:Ao Liu, Aoyuan Liao, Duanhong Gao, Jingwei Li, Wen Ren, Yanran Wang. We all are Master students from Statistics department of Columbia University, expected to graduate at Dec. 2016.
+Team members: Ao Liu, Aoyuan Liao, Duanhong Gao, Jingwei Li, Wen Ren, Yanran Wang. We all are Master students from Statistics department of Columbia University, expected to graduate at Dec. 2016.
 
 
 
