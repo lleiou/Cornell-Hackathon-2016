@@ -1,7 +1,7 @@
 # [Cornell Hackathon 2016](https://datascience2016.splashthat.com)
 Official Repository: [datascience2016](https://github.com/imbenzene/datascience2016)
 
-Our project link: (https://tripaidtotto.shinyapps.io/product/)
+Our project link: https://tripaidtotto.shinyapps.io/product/
 
 Data Set: [Hospital Inpatient Discharges (SPARCS De-Identified): 2013](https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/npsr-cm47)
 
