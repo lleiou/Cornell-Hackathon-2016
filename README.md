@@ -12,8 +12,8 @@ Feb 13 10:00am - Feb 14 10:00am, 2016.
 
 
 
-
-
+####Product Name:
+Trip-Aid
 
 
 ####About Trip-Aid:
@@ -25,6 +25,12 @@ To make user experience much better especially for those in emergence status, we
 Users could see the result in a module with google map, which shows users’ location and suggested hospitals at the same time. 
 
 We are also looking forward to develop a similar iOS/Android app, which is more convenient to use.
+
+
+####About Team:
+Team name: Totto
+
+Team members:Ao Liu, Aoyuan Liao, Duanhong Gao, Jingwei Li, Wen Ren, Yanran Wang. We all are Master students from Statistics department of Columbia University, expected to graduate at Dec. 2016.
 
 
 
