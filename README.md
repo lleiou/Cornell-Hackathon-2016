@@ -2,9 +2,7 @@
 Official Repository: [datascience2016](https://github.com/imbenzene/datascience2016)
 
 
-
 Data Set: [Hospital Inpatient Discharges (SPARCS De-Identified): 2013](https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/npsr-cm47)
-
 
 
 Feb 13 10:00am - Feb 14 10:00am, 2016.
@@ -25,6 +23,18 @@ To make user experience much better especially for those in emergence status, we
 Users could see the result in a module with google map, which shows users’ location and suggested hospitals at the same time. 
 
 We are also looking forward to developing a similar iOS/Android app, which is more convenient to use.
+
+
+<br /> 
+
+![screen shot 2016-02-14 at 10 00 25 am](https://cloud.githubusercontent.com/assets/3372200/13034396/1e5fdff4-d302-11e5-9cbb-d7f399402e7a.jpg)
+
+
+<center>The User Interface of Trip-Aid</center>
+
+<br /> 
+
+
 
 
 ####About Team:
