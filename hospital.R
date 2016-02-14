@@ -21,7 +21,7 @@ hosp$`Total Charges` <- str_replace_all(hosp$`Total Charges`, "[^[:alnum:]]", ""
 hosp$`Total Charges` <- as.numeric(hosp$`Total Charges`) / 100
 
 save(hosp, file = "hosp.RData")
-save(hosp, file = "hosp2.RData")
+save(hosp2, file = "hosp2.RData")
 
 load("hosp.RData")
 load("hosp2.RData")
