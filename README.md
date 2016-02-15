@@ -5,6 +5,8 @@ Our project link: https://tripaidtotto.shinyapps.io/product/
 
 Data Set: [Hospital Inpatient Discharges (SPARCS De-Identified): 2013](https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/npsr-cm47)
 
+[Coverge on the final demo | Twitter](https://twitter.com/custuart/status/698924000366436352)
+
 
 Feb 13 10:00am - Feb 14 10:00am, 2016.
 
