@@ -42,6 +42,7 @@ Team name: Totto
 
 Team members: Ao Liu, Aoyuan Liao, Duanhong Gao, Jingwei Li, Wen Ren, Yanran Wang. We all are Master students from Statistics department of Columbia University, expected to graduate at Dec. 2016.
 
+![Group Members](https://github.com/lleiou/Cornell-Hackathon-2016/blob/master/IMG_3455.JPG)
 
 
 ####Related Links:
